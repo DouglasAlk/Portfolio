@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+header {
+    background-color: #FFA500;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+    color: #FFF;
+}
+
+.skills-section {
+    padding: 40px;
+    background-color: #FFF;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #FFA500;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.projects-section {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 30px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 40px;  
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
