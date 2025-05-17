@@ -1,92 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Douglas Mikael</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Douglas Mikael | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header>
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="logo">Douglas Mikael Alkimin Lima</h1>
+    <nav class="nav">
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <div class="logo">
-            <img src="img/profile.jpg" alt="Foto de Douglas Mikael" class="profile-pic">
-        </div>
+  <!-- MAIN HERO -->
+  <main class="home">
+    <div class="home-left">
+      <img src="img/profiles/profile1.jpg" alt="Foto Douglas Mikael" class="profile-pic" />
+    </div>
+    <div class="home-right">
+      <h2 class="title">Técnico em Produção &amp; Engenharia de Software</h2>
+      <p class="subtitle">Atualmente atuo como Técnico em Produção e estou me preparando para ingressar no setor financeiro, 
+        Tenho experiências anteriores no setor público e varejo, onde desenvolvi habilidades em controle de processos, 
+        atendimento ao cliente e análise de dados. Já atuei com sistemas ERP e ferramentas como Excel e Power Query. 
+        Estou graduando em Engenharia de Software e sigo em constante aprendizado!</p>
+      <div class="btn-group">
 
-        <div class="titulo-page">
-            <h1 class="titulo">Douglas Mikael Dev</h1>
-        </div>
+        <a href="financeiro.html" class="btn">Mercado Financeiro</a>
+        <a href="programacao.html" class="btn">Programação</a>
+      </div>
+    </div>
+  </main>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <main>
-        <section id="home" class="hero-section">
-            <h1>Bem-vindo ao meu portfólio!</h1>
-            <p>Veja meus projetos e habilidades abaixo.</p>
-        </section>
-
-        <section id="habilidades" class="skills-section">
-            <h2>Habilidades</h2>
-            <ul class="skills-list">
-                <li>Java</li>
-                <li>Spring Boot</li>
-                <li>HTML & CSS</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-
-        <section id="projetos" class="projects-section">
-            <h2>Meus Projetos</h2>
-
-            <div class="project">
-                <img src="img/projeto 01/site.jpg" alt="Projeto 1" class="project-img">
-                <img src="img/projeto 01/html.jpg" alt="Projeto 1" class="project-img">
-                <img src="img/projeto 01/css.jpg" alt="Projeto 1" class="project-img">
-                <h3>DsTasty</h3>
-                <p>O projeto foi uma  oportunidade para aprofundar meus conhecimentos em HTML e CSS. Durante o desenvolvimento, organizei o conteúdo em seções distintas com tags semânticas, melhorando a acessibilidade e a compreensão do código. No CSS, explorei o uso de classes e containers, aprendendo a importância de uma boa estrutura no layout. Também apliquei propriedades como display, align-items e justify-content para criar layouts responsivos e esteticamente agradáveis. Além disso, utilizei a API de Fontes do Google para personalizar a tipografia, contribuindo para uma apresentação visual moderna e atraente.</p>
-                <a href="https://github.com/DouglasAlk/DSTaaty" class="btn-git">Ver no GitHub</a>
-                <a href="https://dstaaty.netlify.app" class="btn-site">Ver Site</a>
-            </div>
-
-            <div class="project">
-               
-                 <img src="img/projeto 02/forca.png" alt="Projeto 2" class="project-img">
-                 <img src="img/projeto 02/forca2.png" alt="Projeto 2" class="project-img">
-                 <img src="img/projeto 02/forca3.png" alt="Projeto 2" class="project-img">
-                <h3>Jogo da Forca</h3>
-                <p>O projeto "Jogo da Forca" foi uma excelente oportunidade para me aprofundar no uso de Java e aprimorar minhas habilidades em programação orientada a objetos. Durante o desenvolvimento, organizei o código em classes, garantindo uma separação clara entre as responsabilidades de cada componente, como a lógica do jogo, a leitura de arquivos e o controle de exceções. Explorei o uso de ferramentas como BufferedReader e Scanner para manipulação de dados, além de Random para a escolha aleatória de palavras, proporcionando uma experiência dinâmica ao usuário. Também implementei tratamento de exceções, garantindo a robustez do sistema e prevenindo erros inesperados.</p>
-                <a href="https://github.com/DouglasAlk/Meus_Projetos/tree/main" class="btn-git">Ver no GitHub</a>
-                <a href="https://github.com/DouglasAlk/Meus_Projetos/tree/main/JogoDaForca" class="btn-site">Ver Site</a>
-            </div>
-
-        </section>
-    </main>
-
-    <footer>
-        <footer>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/douglasmikaeldev/" target="_blank">
-                    <img src="svg/linkedin.svg" alt="LinkedIn" class="social-icon">
-                </a>
-                <a href="https://www.instagram.com/douglas_alkiminn" target="_blank">
-                    <img src="svg/instagram.svg" alt="Instagram" class="social-icon">
-                </a>
-                <a href="https://wa.me/5569992829784" target="_blank">
-                    <img src="svg/whatsapp.svg" alt="WhatsApp" class="social-icon">
-                </a>
-            </div>
-            <p>&copy; 2024 Douglas Mikael. Todos os direitos reservados.</p>
-        </footer>
-    </footer>
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/douglasmikaeldev/" target="_blank">
+        <img src="svg/linkedin.svg" alt="LinkedIn" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/douglas_alkiminn" target="_blank">
+        <img src="svg/instagram.svg" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://wa.me/5569992829784" target="_blank">
+        <img src="svg/whatsapp.svg" alt="WhatsApp" class="social-icon">
+      </a>
+    </div>
+    <p>&copy; 2024 Douglas Mikael. Todos os direitos reservados.</p>
+  </footer>
 </body>
-
 </html>

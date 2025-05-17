@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Programação | Douglas Mikael</title>
+  <link rel="stylesheet" href="programacao.css"/>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Minha Experiência em Programação</h1>
+    <nav class="nav-buttons">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="window.open('seu-cv.pdf','_blank')">Download CV</button>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        Contact
+      </button>
+    </nav>
+  </header>
+
+  <!-- RESUMO -->
+  <section class="summary">
+    <div class="summary-text">
+      <h2>Habilidades e Projetos</h2>
+      <p>Desenvolvedor Java com foco em back-end, Spring Boot, APIs REST e automação de processos.</p>
+      <ul>
+        <li>Logica de Programação</li>
+        <li>Html e Css</li>
+        <li>Java</li>
+        <li>Git e GitHub</li>
+      </ul>
+    </div>
+    <div class="summary-img">
+      <img src="img/profiles/profileprogramacao.JPG" alt="Foto Douglas Mikael Programação" />
+    </div>
+  </section>
+
+  <!-- POSTS DE PROJETOS -->
+  <main class="posts-container">
+    <!-- Projeto 1 -->
+    <article class="post">
+      <div class="post-img">
+        <img src="img/programacao/projeto 01/site.jpg" alt="DsTasty" />
+      </div>
+      <div class="post-content">
+        <h3>DsTasty</h3>
+        <p>HTML/CSS semântico, responsividade com Flexbox e Google Fonts.</p>
+        <div class="post-links">
+          <a href="https://github.com/DouglasAlk/DSTaaty" target="_blank">GitHub</a>
+          <a href="https://dstaaty.netlify.app" target="_blank">Site</a>
+        </div>
+      </div>
+    </article>
+    <!-- Projeto 2 -->
+    <article class="post">
+      <div class="post-img">
+        <img src="img/programacao/projeto 02/forca.png" alt="Jogo da Forca" />
+      </div>
+      <div class="post-content">
+        <h3>Jogo da Forca</h3>
+        <p>Java POO, BufferedReader, Random e tratamento de exceções.</p>
+        <div class="post-links">
+          <a href="https://github.com/DouglasAlk/Meus_Projetos/tree/main/JogoDaForca" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </article>
+    <!-- adicione mais posts -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/douglasmikaeldev/" target="_blank">
+        <img src="svg/linkedin.svg" alt="LinkedIn" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/douglas_alkiminn" target="_blank">
+        <img src="svg/instagram.svg" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://wa.me/5569992829784" target="_blank">
+        <img src="svg/whatsapp.svg" alt="WhatsApp" class="social-icon">
+      </a>
+    </div>
+    <p>&copy; 2024 Douglas Mikael. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
